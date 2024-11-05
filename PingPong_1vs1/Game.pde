@@ -8,12 +8,12 @@ class Game {
 
   // Erhöht den Punktestand des linken Spielers um 1
   void AddPointL() {
-    PointsLeft++;
+    PointsLeft=PointsLeft+1;
   }
   
   // Erhöht den Punktestand des rechten Spielers um 1
   void AddPointR() {
-    PointsRight++;
+    PointsRight=PointsRight+1;
   }
   
   // Überprüft, ob ein Spieler das Spiel gewonnen hat
